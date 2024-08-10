@@ -10,7 +10,7 @@ public class contador {
         int parametroUm = terminal.nextInt();
         System.out.println("Digite o segundo parâmetro");
         int parametroDois = terminal.nextInt();
-
+        terminal.close();
         try {
             //chamando o método contendo a lógica de contagem
             contar(parametroUm, parametroDois);
